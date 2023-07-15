@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	touch-action: none;
+	user-select: none;
+	-webkit-user-select: none;
+	font-family: "Ubuntu", sans-serif;
+}
+
+body {
+	background-color: #222222;
+	overscroll-behavior-y: none;
+	overflow-y: hidden;
+}
+
+.cupertino-pane-wrapper .pane {
+	background: rgba(#1c1c1e, 0.8);
+	backdrop-filter: blur(40px);
+	-webkit-backdrop-filter: blur(40px);
+
+	@media screen and (min-width: 650px) {
+		margin-left: 0;
+		max-width: 350px;
+	}
+}
